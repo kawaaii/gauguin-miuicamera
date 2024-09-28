@@ -1,0 +1,70 @@
+version: 2.10.0
+apkFileName: MiuiCamera.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 28
+  targetSdkVersion: 29
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 450020301
+  versionName: 4.5.002030.1
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  MODULE_LICENSE_BSD: 8
+  miui/popupcamera/IPopupCameraManager.aidl: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 8
+doNotCompress:
+- classes.dex
+- classes2.dex
+- classes3.dex
+- resources.arsc
+- assets/authpack/authpack.bin
+- webp
+- png
+- ogg
+- lib/arm64-v8a/libCameraEffectJNI.so
+- lib/arm64-v8a/libYuvWatermark.so
+- lib/arm64-v8a/libarc_layer_sgl.so
+- lib/arm64-v8a/libarcsoft_deflicker.so
+- lib/arm64-v8a/libc++.so
+- lib/arm64-v8a/libc++_shared.so
+- lib/arm64-v8a/libcamera_arcsoft_handgesture.so
+- lib/arm64-v8a/libcamera_handgesture_mpbase.so
+- lib/arm64-v8a/libcamera_mpbase.so
+- lib/arm64-v8a/libcamera_sound_effect.so
+- lib/arm64-v8a/libcom.xiaomi.camera.requestutil.so
+- lib/arm64-v8a/libdeflicker_jni.so
+- lib/arm64-v8a/libdmabufheap.so
+- lib/arm64-v8a/libhandengine.arcsoft.so
+- lib/arm64-v8a/libijkffmpeg.so
+- lib/arm64-v8a/libijkplayer.so
+- lib/arm64-v8a/libijksdl.so
+- lib/arm64-v8a/libion.so
+- lib/arm64-v8a/libmialgo_saliency.so
+- lib/arm64-v8a/libmialgo_saliency_jni.so
+- lib/arm64-v8a/libmisoundcamerasupport.so
+- lib/arm64-v8a/libmiuiblursdk.so
+- lib/arm64-v8a/libmulti-wakeup-engine.so
+- lib/arm64-v8a/libvideo_extra_color_converter.so
+- lib/arm64-v8a/libvideo_extra_interpolator.so
+- lib/armeabi-v7a/libCameraEffectJNI.so
+- lib/armeabi-v7a/libarc_layer_sgl.so
+- lib/armeabi-v7a/libc++_shared.so
+- lib/armeabi-v7a/libcamera_arcsoft_handgesture.so
+- lib/armeabi-v7a/libcamera_handgesture_mpbase.so
+- lib/armeabi-v7a/libcamera_sound_effect.so
+- lib/armeabi-v7a/libhandengine.arcsoft.so
+- lib/armeabi-v7a/libmisoundcamerasupport.so
+- lib/armeabi-v7a/libmiuiblursdk.so
+- lib/armeabi-v7a/libmulti-wakeup-engine.so
+- jpg
+- mp3
+- mp4
